@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CarService {
 
-    private static final List<String> BRANDS = Arrays.asList("Audi", "Toyota", "Tesla", "Opel", "BMW", "Ferrari");
+    public static final List<String> BRANDS = Arrays.asList("Audi", "Toyota", "Tesla", "Opel", "BMW", "Ferrari");
     private final Random random = new Random();
 
     private final CarRepository carRepository;
